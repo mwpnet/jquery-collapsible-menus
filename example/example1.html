@@ -1,0 +1,97 @@
+<! doctype html>
+
+<html>
+<head>
+<title>collapsible menu example  1</title>
+<meta charset="utf-8"/>
+
+
+<script type="text/javascript" src="jquery/jquery.min.js" ></script>
+
+<script type="text/javascript" src="../js/menu.js"></script>
+
+<script>
+$(document).ready( function() {
+	$("#firstMenu").treeMenu();
+	$("#secondMenu").treeMenu();
+	$("#thirdMenu").treeMenu();
+});
+</script>
+
+</head>
+<body>
+
+<ul id="firstMenu">
+<li>This menu is
+<ul>
+<li>really
+<ul>
+<li>really
+<ul>
+<li>really
+<ul>
+<li>really
+<ul>
+<li>really
+<ul>
+<li>really
+<ul>
+<li>really
+<ul>
+<li>deep
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+<hr>
+
+<ul id="secondMenu">
+	<li>some text before the sub-menu
+		<ul>
+			<li>item one</li>
+			<li>item two</li>
+		</ul>
+		<p>some text in the middle</p>
+		<ul>
+			<li>item three</li>
+			<li>item four</li>
+		</ul>
+		<p>some text after</p>
+	</li>
+</ul>
+<hr>
+
+<ul id="thirdMenu">
+	<li>extra tags around sub-menu
+		<div style="color: red;">
+		div that sets color
+		<div style="font-family: 'Courier New';">
+		div that sets font
+		<div style="letter-spacing: 12px;">
+		div that sets letter spacing
+		<ul>
+			<li>item 1</li>
+			<li>item 2</li>
+		</ul>
+		</div>
+		</div>
+		</div>
+	</li>
+</ul>
+</body>
+</html>
